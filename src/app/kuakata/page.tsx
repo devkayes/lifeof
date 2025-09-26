@@ -15,12 +15,12 @@ export default function Kuakata() {
           className="rounded-lg shadow-md my-10 filter grayscale-[0.85]"
           priority
         />
-        I had the opportunity to visit to Kuakata Sea Beach many time
-        {" ("}Allahmdulliya{")"}, and it felt nothing short of magical. Kuakata,
-        often called the "Daughter of the Sea," is one of the rare places in the
-        world where you can watch both the sunrise and sunset over the horizon
-        of the sea. Standing there, I felt as if the ocean was whispering its
-        eternal secrets in the language of waves.
+        I had the opportunity to visit to Kuakata Sea Beach many time -
+        Allahmdulliya, and it felt nothing short of magical. Kuakata, often
+        called the "Daughter of the Sea," is one of the rare places in the world
+        where you can watch both the sunrise and sunset over the horizon of the
+        sea. Standing there, I felt as if the ocean was whispering its eternal
+        secrets in the language of waves.
         <br />
         <br />
         The first morning, I woke up early, long before the sun rose. The beach
@@ -47,11 +47,12 @@ export default function Kuakata() {
         <br />
         <br />
         While walking along the sand when I noticed something really interesting
-        — thousands of tiny red crabs, called “Lal Kakra,” were moving across
-        the beach. They were so small and fast! Every time I got closer, they
-        disappeared into their little holes in the sand. It was amazing to see
-        them all together, like the beach was alive. I just stood there watching
-        them, feeling really lucky to see something so simple but so special.
+        — hundreds of tiny red crabs, called &ldquo;Lal Kakra&rdquo;, were
+        moving across the beach. They were so small and fast! Every time I got
+        closer, they disappeared into their little holes in the sand. It was
+        amazing to see them all together, like the beach was alive. I just stood
+        there watching them, feeling really lucky to see something so simple but
+        so special.
         <br />
         <br />
         <Image
@@ -62,12 +63,12 @@ export default function Kuakata() {
           className="rounded-lg shadow-md filter grayscale-[0.85] my-10"
           priority
         />
-        Kuakata’s seafood is something I’ll never forget. Fresh crabs, prawns,
-        and fish cooked with local spices tasted heavenly after a long walk on
-        the beach. Each meal felt like a celebration of the ocean itself.
-        Sitting at a small local stall, eating with my friends while the waves
-        roared in the background, I realized how food and place together can
-        create memories that last forever.
+        Kuakata&rsquo;s seafood is something I&#39;ll never forget. Fresh crabs,
+        prawns, and fish cooked with local spices tasted heavenly after a long
+        walk on the beach. Each meal felt like a celebration of the ocean
+        itself. Sitting at a small local stall, eating with my friends while the
+        waves roared in the background, I realized how food and place together
+        can create memories that last forever.
         <br />
         <br />
         One of the most exciting parts of the tour was horse riding by the sea.
