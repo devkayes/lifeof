@@ -18,10 +18,10 @@ export default function Home() {
     },
     {
       id: 3,
-      title: "A journey of relax",
+      title: "A Journey of Relaxation",
       slug: "kuakata",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ullam sint molestias enim eveniet minima laboriosam cupiditate eum at quis!",
+        "Relax on Kuakata’s serene beaches, enjoy fresh seafood, and soak in beautiful sunrises and sunsets.",
     },
   ];
 
