@@ -24,7 +24,7 @@ export default function Kuakata() {
         horizon of the sea. Standing there, I felt as if the ocean was
         whispering its eternal secrets in the language of waves.
       </p>
-
+      <br />
       <p>
         The first morning, I woke up early, long before the sun rose. The beach
         was quiet, except for the soothing sound of the waves crashing
@@ -52,6 +52,7 @@ export default function Kuakata() {
         faces full of stories of the sea. Some even invited us to see their
         boats, proudly showing the nets and the fish they had caught.
       </p>
+      <br />
 
       <p>
         While walking along the sand, I noticed something really interesting —
@@ -80,6 +81,7 @@ export default function Kuakata() {
         waves roared in the background, I realized how food and place together
         can create memories that last forever.
       </p>
+      <br />
 
       <p>
         One of the most exciting parts of the tour was horse riding by the sea.
@@ -89,6 +91,7 @@ export default function Kuakata() {
         sky melted into the sea. For those few minutes, I felt free—like a child
         again, living only in the moment.
       </p>
+      <br />
 
       <p>
         The sunset at Kuakata was even more breathtaking than the sunrise. The
@@ -98,6 +101,7 @@ export default function Kuakata() {
         taking away every worry, every hidden pain, and leaving me with nothing
         but gratitude.
       </p>
+      <br />
 
       <p>
         Kuakata wasn&apos;t just a trip. It was an experience of beauty,
