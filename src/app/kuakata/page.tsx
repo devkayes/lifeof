@@ -16,11 +16,11 @@ export default function Kuakata() {
           priority
         />
         I had the opportunity to visit to Kuakata Sea Beach many time
-        (Allahmdulliya), and it felt nothing short of magical. Kuakata, often
-        called the "Daughter of the Sea," is one of the rare places in the world
-        where you can watch both the sunrise and sunset over the horizon of the
-        sea. Standing there, I felt as if the ocean was whispering its eternal
-        secrets in the language of waves.
+        {" ("}Allahmdulliya{")"}, and it felt nothing short of magical. Kuakata,
+        often called the "Daughter of the Sea," is one of the rare places in the
+        world where you can watch both the sunrise and sunset over the horizon
+        of the sea. Standing there, I felt as if the ocean was whispering its
+        eternal secrets in the language of waves.
         <br />
         <br />
         The first morning, I woke up early, long before the sun rose. The beach
