@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <div className="flex items-center justify-center min-h-screen">
-      <ul className="text-center">
+      <ul className="text-center px-4">
         {posts.map((post) => (
           <li
             key={post.id}
