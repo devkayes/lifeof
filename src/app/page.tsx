@@ -18,8 +18,8 @@ export default function Home() {
     },
     {
       id: 3,
-      title: "Lessons Learned",
-      slug: "uttara",
+      title: "A journey of relax",
+      slug: "kuakata",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ullam sint molestias enim eveniet minima laboriosam cupiditate eum at quis!",
     },
