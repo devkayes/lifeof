@@ -11,10 +11,10 @@ export default function Home() {
     },
     {
       id: 2,
-      title: "My Journey",
-      slug: "dhaka",
+      title: "To erase of memories...",
+      slug: "sylhet",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ullam sint molestias enim eveniet minima laboriosam cupiditate eum at quis!",
+        "A heartfelt journey through the silence of hidden pain, and the need to let go in order to breathe freely and heal the soul.",
     },
     {
       id: 3,
