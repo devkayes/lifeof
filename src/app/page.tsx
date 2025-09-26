@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   const posts = [
@@ -28,6 +29,16 @@ export default function Home() {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <ul className="text-center px-4">
+        <div>
+          <Image
+            src="/images/gym-1.jpg"
+            alt="Gym picture"
+            width={600}
+            height={300}
+            className="rounded-lg shadow-md my-10 filter grayscale-[0.85]"
+            priority
+          />
+        </div>
         {posts.map((post) => (
           <li
             key={post.id}
