@@ -39,8 +39,9 @@ export default function Home() {
             priority
           />
           <p className="text-[10px] mt-1">
-            {"*"} The content was clearly rewritten by an AI tool, yet it
-            perfectly expresses what I truly wanted to share from my heart.
+            {"*"} Contents of this website is clearly rewritten by an AI tool,
+            yet it perfectly expresses what I truly wanted to share from my
+            heart.
           </p>
         </div>
         {posts.map((post) => (
