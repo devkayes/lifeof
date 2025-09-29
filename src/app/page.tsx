@@ -29,15 +29,19 @@ export default function Home() {
   return (
     <div className="flex items-center justify-center min-h-screen">
       <ul className="text-center px-4">
-        <div>
+        <div className="text-start">
           <Image
             src="/images/gym-1.jpg"
             alt="Gym picture"
             width={600}
             height={300}
-            className="rounded-lg shadow-md my-10 filter grayscale-[0.85]"
+            className="rounded-lg shadow-md filter grayscale-[0.85]"
             priority
           />
+          <p className="text-[10px] mt-1">
+            {"*"} The content was clearly rewritten by an AI tool, yet it
+            perfectly expresses what I truly wanted to share from my heart.
+          </p>
         </div>
         {posts.map((post) => (
           <li
