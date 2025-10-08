@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
+/* Always dark colors */
 :root {
-  --background: #ffffff;
-  --foreground: #272727;
+  --background: #272727;  /* dark background */
+  --foreground: #ededed;  /* light text for contrast */
 }
 
+/* Optional: theme variables */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -13,14 +15,7 @@
   --font-cardo: var(--font-cardo);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #272727;
-
-    --foreground: #ededed;
-  }
-}
-
+/* Remove dark/light preference media query */
 body {
   background: var(--background);
   color: var(--foreground);
