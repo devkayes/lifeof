@@ -1,5 +1,6 @@
 import Image from "next/image";
 import StoryWrapper from "../components/StoryWrapper";
+import SharedImage from "../class/SharedImage";
 
 export default function Village() {
   return (
@@ -8,14 +9,13 @@ export default function Village() {
       <p className="text-[12px] mt-2"> Since 2001 - Infinity</p>
 
       <div className="my-10">
-        <Image
+        <SharedImage
           src="/images/kayes-in-bicycle.jpg"
           alt="Riding bicycle"
           width={600}
           height={400}
           className="rounded-lg shadow-md filter grayscale-[0.85]"
           priority
-          blurDataURL="/loader-2.gif"
         />
       </div>
       <p>
@@ -36,14 +36,13 @@ export default function Village() {
         freedom.
       </p>
 
-      <Image
+      <SharedImage
         src="/images/kayes-in-boat.jpg"
         alt="Kayes in a boat"
         width={600}
         height={400}
         className="rounded-lg shadow-md filter grayscale-[0.85] my-10 max-h-[370px]"
         priority
-        blurDataURL="/loader-2.gif"
       />
 
       <p>

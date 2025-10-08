@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import SharedImage from "./class/SharedImage";
 
 export default function Home() {
   const posts = [
@@ -30,15 +31,13 @@ export default function Home() {
     <div className="flex items-center justify-center min-h-screen">
       <ul className="text-center px-4">
         <div className="text-start">
-          <Image
+          <SharedImage
             src="/images/gym-1.jpg"
             alt="Gym picture"
             width={600}
             height={300}
             className="rounded-lg shadow-md filter grayscale-[0.85]"
             priority
-            // blurDataURL={"/loader-2.gif"}
-            blurDataURL="/loader-2.gif"
           />
           <p className="text-[10px] mt-1">
             {"*"} Contents of this website is clearly rewritten by an AI tool,

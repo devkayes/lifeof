@@ -1,5 +1,6 @@
 import Image from "next/image";
 import StoryWrapper from "../components/StoryWrapper";
+import SharedImage from "../class/SharedImage";
 
 export default function Kuakata() {
   return (
@@ -7,7 +8,7 @@ export default function Kuakata() {
       <p className="text-[20px]">A Journey of Relaxation!!</p>
       <p className="text-[12px] mt-2">Kuakata, In 2024</p>
 
-      <Image
+      <SharedImage
         src="/images/kuakata-horse.jpg"
         alt="Kuakata horse riding"
         width={600}
@@ -36,7 +37,7 @@ export default function Kuakata() {
         breathe, grateful to be alive.
       </p>
 
-      <Image
+      <SharedImage
         src="/images/kuakata-1.jpg"
         alt="Kuakata sea beach"
         width={600}
@@ -66,14 +67,13 @@ export default function Kuakata() {
         special.
       </p>
 
-      <Image
+      <SharedImage
         src="/images/kuakata-sea-food.jpg"
         alt="Kuakata sea food"
         width={600}
         height={600}
         className="rounded-lg shadow-md filter grayscale-[0.85] my-10"
         priority
-        blurDataURL="/loader-2.gif"
       />
 
       <p>

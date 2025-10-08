@@ -1,5 +1,6 @@
 import Image from "next/image";
 import StoryWrapper from "../components/StoryWrapper";
+import SharedImage from "../class/SharedImage";
 
 export default function Village() {
   return (
@@ -36,14 +37,13 @@ export default function Village() {
         the air, something that immediately made me feel lighter.
       </p>
 
-      <Image
+      <SharedImage
         src="/images/sylhet-without-tshirt.jpg"
         alt="Sylhet without T-shirt"
         width={600}
         height={400}
         className="rounded-lg shadow-md filter grayscale-[0.85] my-10 max-h-[370px]"
         priority
-        blurDataURL="/loader-2.gif"
       />
 
       <p>
@@ -54,14 +54,13 @@ export default function Village() {
         the busy city streets or the quiet corners of nature.
       </p>
 
-      <Image
+      <SharedImage
         src="/images/sylhet-with-friends.jpg"
         alt="Sylhet without T-shirt"
         width={600}
         height={400}
         className="rounded-lg shadow-md filter grayscale-[0.85] my-10 max-h-[370px]"
         priority
-        blurDataURL="/loader-2.gif"
       />
 
       <p>
