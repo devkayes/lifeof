@@ -15,6 +15,7 @@ export default function Village() {
           height={400}
           className="rounded-lg shadow-md filter grayscale-[0.85]"
           priority
+          blurDataURL="/loader-2.gif"
         />
       </div>
       <p>
@@ -42,6 +43,7 @@ export default function Village() {
         height={400}
         className="rounded-lg shadow-md filter grayscale-[0.85] my-10 max-h-[370px]"
         priority
+        blurDataURL="/loader-2.gif"
       />
 
       <p>

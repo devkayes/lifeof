@@ -37,6 +37,8 @@ export default function Home() {
             height={300}
             className="rounded-lg shadow-md filter grayscale-[0.85]"
             priority
+            // blurDataURL={"/loader-2.gif"}
+            blurDataURL="/loader-2.gif"
           />
           <p className="text-[10px] mt-1">
             {"*"} Contents of this website is clearly rewritten by an AI tool,

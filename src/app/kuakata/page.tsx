@@ -14,6 +14,7 @@ export default function Kuakata() {
         height={300}
         className="rounded-lg shadow-md my-10 filter grayscale-[0.85]"
         priority
+        blurDataURL="/loader-2.gif"
       />
 
       <p>
@@ -42,6 +43,7 @@ export default function Kuakata() {
         height={400}
         className="rounded-lg shadow-md filter grayscale-[0.85] my-10"
         priority
+        blurDataURL="/loader-2.gif"
       />
 
       <p>
@@ -71,6 +73,7 @@ export default function Kuakata() {
         height={600}
         className="rounded-lg shadow-md filter grayscale-[0.85] my-10"
         priority
+        blurDataURL="/loader-2.gif"
       />
 
       <p>
