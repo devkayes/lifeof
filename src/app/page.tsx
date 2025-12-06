@@ -25,6 +25,12 @@ export default function Home() {
       description:
         "Relax on Kuakata’s serene beaches, enjoy fresh seafood, and soak in beautiful sunrises and sunsets.",
     },
+    {
+      id: 3,
+      title: "I Tried – Story of a Bird",
+      slug: "story-of-a-bird",
+      description: " A quiet village corner • many years ago",
+    },
   ];
 
   return (
