@@ -4,7 +4,7 @@ export default function StoryWrapper({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="flex justify-center min-h-screen font-mono">
+    <div className="flex justify-center min-h-screen font-cormorant ">
       <div className="max-w-[600px] px-4 mt-20 text-justify">{children}</div>
     </div>
   );

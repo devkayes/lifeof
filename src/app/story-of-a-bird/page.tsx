@@ -6,7 +6,7 @@ export default function StoryOfABird() {
     <StoryWrapper>
       <p className="text-[20px]">I Tried – Story of a Bird</p>
       <p className="text-[12px] mt-2">
-        A quiet village corner • many years ago
+        The moment I still can’t let go • many years ago
       </p>
 
       <SharedImage

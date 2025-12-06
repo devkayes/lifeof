@@ -29,7 +29,7 @@ export default function Home() {
       id: 3,
       title: "I Tried – Story of a Bird",
       slug: "story-of-a-bird",
-      description: " A quiet village corner • many years ago",
+      description: "The moment I still can’t let go • many years ago",
     },
   ];
 
