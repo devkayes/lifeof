@@ -38,11 +38,11 @@ export default function Home() {
       <ul className="text-center px-4">
         <div className="text-start">
           <SharedImage
-            src="/images/gym-1.jpg"
+            src="/images/panjabi.jpg"
             alt="Gym picture"
             width={600}
             height={300}
-            className="rounded-lg shadow-md filter grayscale-[0.85]"
+            className="w-full h-[600px] rounded-lg shadow-md filter grayscale-[0.85]"
             priority
           />
           <p className="text-[10px] mt-1">
