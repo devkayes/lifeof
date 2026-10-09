@@ -1,21 +1,16 @@
-import Image from "next/image";
-import StoryWrapper from "../components/StoryWrapper";
-import SharedImage from "../class/SharedImage";
+import DiaryStory, { DiaryPhoto } from "../components/DiaryStory";
 
 export default function Kuakata() {
   return (
-    <StoryWrapper>
-      <p className="text-[20px]">A Journey of Relaxation!!</p>
-      <p className="text-[12px] mt-2">Kuakata, In 2024</p>
-
-      <SharedImage
+    <DiaryStory title="A Journey of Relaxation!!" meta="Kuakata, In 2024">
+      <DiaryPhoto
         src="/images/kuakata-horse.jpg"
         alt="Kuakata horse riding"
-        width={600}
-        height={300}
-        className="rounded-lg shadow-md my-10 filter grayscale-[0.85]"
-        priority
-        blurDataURL="/loader-2.gif"
+        width={1144}
+        height={1332}
+        place="center"
+        tilt="left"
+        eager
       />
 
       <p>
@@ -26,7 +21,6 @@ export default function Kuakata() {
         horizon of the sea. Standing there, I felt as if the ocean was
         whispering its eternal secrets in the language of waves.
       </p>
-      <br />
       <p>
         The first morning, I woke up early, long before the sun rose. The beach
         was quiet, except for the soothing sound of the waves crashing
@@ -37,14 +31,13 @@ export default function Kuakata() {
         breathe, grateful to be alive.
       </p>
 
-      <SharedImage
+      <DiaryPhoto
         src="/images/kuakata-1.jpg"
         alt="Kuakata sea beach"
-        width={600}
-        height={400}
-        className="rounded-lg shadow-md filter grayscale-[0.85] my-10"
-        priority
-        blurDataURL="/loader-2.gif"
+        width={1886}
+        height={2626}
+        place="right"
+        tilt="right"
       />
 
       <p>
@@ -55,8 +48,6 @@ export default function Kuakata() {
         faces full of stories of the sea. Some even invited us to see their
         boats, proudly showing the nets and the fish they had caught.
       </p>
-      <br />
-
       <p>
         While walking along the sand, I noticed something really interesting —
         hundreds of tiny red crabs, called &quot;Lal Kakra&quot;, were moving
@@ -67,13 +58,13 @@ export default function Kuakata() {
         special.
       </p>
 
-      <SharedImage
+      <DiaryPhoto
         src="/images/kuakata-sea-food.jpg"
         alt="Kuakata sea food"
-        width={600}
-        height={600}
-        className="rounded-lg shadow-md filter grayscale-[0.85] my-10"
-        priority
+        width={1886}
+        height={2479}
+        place="left"
+        tilt="slight"
       />
 
       <p>
@@ -84,8 +75,6 @@ export default function Kuakata() {
         waves roared in the background, I realized how food and place together
         can create memories that last forever.
       </p>
-      <br />
-
       <p>
         One of the most exciting parts of the tour was horse riding by the sea.
         As the sun started to set, I got on a horse and rode along the wide
@@ -94,8 +83,6 @@ export default function Kuakata() {
         sky melted into the sea. For those few minutes, I felt free—like a child
         again, living only in the moment.
       </p>
-      <br />
-
       <p>
         The sunset at Kuakata was even more breathtaking than the sunrise. The
         whole sky turned red and orange, and the waves reflected that fiery
@@ -104,15 +91,13 @@ export default function Kuakata() {
         taking away every worry, every hidden pain, and leaving me with nothing
         but gratitude.
       </p>
-      <br />
-
-      <p>
+      <p className="italic">
         Kuakata wasn&apos;t just a trip. It was an experience of beauty,
         culture, and healing. The kindness of the local people, the taste of
         fresh seafood, the thrill of horse riding, and the endless
         sea—everything came together to remind me that life still holds so much
         joy to discover.
       </p>
-    </StoryWrapper>
+    </DiaryStory>
   );
 }

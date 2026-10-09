@@ -1,22 +1,16 @@
-import Image from "next/image";
-import StoryWrapper from "../components/StoryWrapper";
-import SharedImage from "../class/SharedImage";
+import DiaryStory, { DiaryPhoto } from "../components/DiaryStory";
 
-export default function Village() {
+export default function Sylhet() {
   return (
-    <StoryWrapper>
-      <p className="text-[20px]">To erase of memories...</p>
-      <p className="text-[12px] mt-2">Sylhet, In 2023</p>
-      <br />
-
+    <DiaryStory title="To erase of memories..." meta="Sylhet, In 2023">
       <p>
         For me, this trip wasn’t just about travel. I had been carrying pain
         inside me for a long time—memories, worries, feelings I couldn’t let go
         of. I needed a break. Sylhet was that break. I wanted to step away from
         everything, to meet new people, to experience a new culture, and to
         remind myself that life still had so much to offer.
-        <br />
-        <br />
+      </p>
+      <p>
         Before the Sylhet tour, I was in a difficult place in life. I had been
         carrying a kind of pain that didn’t go away easily. It was a mix of
         things—disappointments, people I had lost touch with, broken trust, and
@@ -27,8 +21,6 @@ export default function Village() {
         it’s not easy when the same routines and the same places keep reminding
         you of what you’re trying to forget.
       </p>
-
-      <br />
       <p>
         That was my first visit to Sylhet, and I can still remember how it felt
         the moment I arrived. The city looked so fresh and alive, surrounded by
@@ -37,13 +29,13 @@ export default function Village() {
         the air, something that immediately made me feel lighter.
       </p>
 
-      <SharedImage
+      <DiaryPhoto
         src="/images/sylhet-without-tshirt.jpg"
         alt="Sylhet without T-shirt"
-        width={600}
-        height={400}
-        className="rounded-lg shadow-md filter grayscale-[0.85] my-10 max-h-[370px]"
-        priority
+        width={4032}
+        height={3024}
+        place="center"
+        tilt="left"
       />
 
       <p>
@@ -54,13 +46,13 @@ export default function Village() {
         the busy city streets or the quiet corners of nature.
       </p>
 
-      <SharedImage
+      <DiaryPhoto
         src="/images/sylhet-with-friends.jpg"
         alt="Sylhet without T-shirt"
-        width={600}
-        height={400}
-        className="rounded-lg shadow-md filter grayscale-[0.85] my-10 max-h-[370px]"
-        priority
+        width={4032}
+        height={3024}
+        place="left"
+        tilt="slight"
       />
 
       <p>
@@ -69,8 +61,8 @@ export default function Village() {
         me feel connected. Tasting the local food, learning little things about
         their traditions, and just soaking in the rhythm of the city gave me a
         new kind of energy.
-        <br />
-        <br />
+      </p>
+      <p>
         That tour gave me more than memories. It gave me peace. It gave me the
         courage to let go of some of the pain I was holding onto. Looking back,
         I realize it wasn’t just a tour—it was a healing journey, one I deeply
@@ -79,11 +71,11 @@ export default function Village() {
         a way to release the pain, even if only for a while. It wasn’t about
         erasing the past, but about reminding myself that there is still joy,
         still peace, still life worth experiencing.
-        <br />
-        <br />
+      </p>
+      <p className="italic">
         It truly was a once-in-a-lifetime experience, and Sylhet will always
         hold a special place in my heart.
       </p>
-    </StoryWrapper>
+    </DiaryStory>
   );
 }

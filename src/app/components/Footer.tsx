@@ -2,19 +2,32 @@ import Link from "next/link";
 import RightArrowIcon from "../icons/RightArrowIcon";
 import LeftArrowIcon from "../icons/LeftArrowIcon";
 
-export default function Footer() {
+export default function Footer({
+  className = "",
+  bordered = true,
+}: {
+  className?: string;
+  bordered?: boolean;
+}) {
   return (
-    <footer className="w-ful mt-10">
-      <div className="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center text-sm">
-        <p className="mb-2 md:mb-0"> hello@kayes.dev</p>
+    <footer
+      className={`flex flex-wrap items-center justify-between gap-4 py-7 font-meta text-sm ${bordered ? "border-t border-rule" : ""} ${className}`}
+    >
+      <a
+        href="mailto:hello@kayes.dev"
+        className="transition-colors hover:text-accent"
+      >
+        hello@kayes.dev
+      </a>
 
-        <div className="space-x-4">
-          <Link href="/" className=" flex items-center gap-2">
-            <LeftArrowIcon className="w-5 h-5 hover:text-[#727182]" />
-            <RightArrowIcon className="w-5 h-5 hover:text-[#727182]" />
-          </Link>
-        </div>
-      </div>
+      <Link
+        href="/"
+        aria-label="Home"
+        className="flex h-11 items-center gap-1 rounded-full px-2 transition-colors hover:text-accent"
+      >
+        <LeftArrowIcon className="h-5 w-5" />
+        <RightArrowIcon className="h-5 w-5" />
+      </Link>
     </footer>
   );
 }
